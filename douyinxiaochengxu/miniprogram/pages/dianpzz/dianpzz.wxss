@@ -1,0 +1,51 @@
+/* pages/dianpzz/dianpzz.wxss */
+page{
+  background-color:#ffffff;
+  font-size:32rpx;
+}
+.contain{
+  padding:0 4%;
+}
+.contain>view{
+  border-bottom:6rpx solid #f2f2f2;
+  padding:2% 0;
+}
+.contain>view>view:nth-child(2){
+  display:flex;
+  align-items: center;
+}
+.contain>view>view>text:first-child{
+  width:35%;
+}
+button{
+  background-color:#0072FB;
+}
+.showImg{
+  display:flex;
+  width:90%;
+  margin:auto;
+  flex-wrap:wrap;
+
+}
+.showImg>view{
+  width:33%;
+  height:100%;
+  text-align: center;
+  border:0;
+  position:relative;
+}
+.showImg .del{
+   width:43rpx;height:43rpx;
+   border-radius:50%;
+   position:absolute;
+   top:0;right:10rpx;
+   color:#fff;
+   background-color:#000;
+}
+.showImg>view:nth-child(2){
+  justify-content: center;
+}
+.showImg image{
+   width:90%;
+   height:200rpx;
+}

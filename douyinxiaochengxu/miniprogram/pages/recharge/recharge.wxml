@@ -1,0 +1,23 @@
+<!--pages/recharge/recharge.wxml-->
+<view class="biaoyu">
+           <view>充值干柴</view>
+           <view>送抵扣卷</view>
+           <view>多充多送</view>
+ </view>
+ <view class="main">
+   <view class="yue">
+      <view style="font-weight:600;color:#797979">充值金额</view>
+      <view>干柴余额： <text style="color:#FF0000">789</text>根 </view>
+   </view>
+   <view class="money">{{money}}元</view>
+   <view class="gengduo">
+       <view ></view>
+       <text>更多充值金额 多充多送</text>
+   </view>
+   <view class="youhui">
+           <view  wx:for="{{youhui}}" wx:key="index" bindtap="active" data-num="{{index}}" class="{{num==index?'active':''}}" >
+               <view data-num="{{index}}">{{item.money}}元</view>
+               <view data-num="{{index}}">送{{item.dk}}抵扣卷</view>
+           </view>
+       </view>
+ </view>

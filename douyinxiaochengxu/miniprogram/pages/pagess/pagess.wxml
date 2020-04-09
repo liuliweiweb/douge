@@ -1,0 +1,13 @@
+<!--pages/pagess/pagess.wxml-->
+<view bindtap="handle1">设置</view>
+<view bindtap="handle2">设置个人资料</view>
+<view bindtap="handle3">设置店铺资料</view>
+<view bindtap="handle4">粉丝关注</view>
+<view bindtap="handle5">找录音棚</view>
+<view bindtap="handle6">找录音棚列表</view>
+<view bindtap="handle7">找录音棚地图</view>
+<view bindtap="handle8">找人做歌</view>
+<view bindtap="handle9">找人做歌搜索</view>
+<view bindtap="handle10">约歌列表</view>
+<view bindtap="handle11">我的VIP卡</view>
+<view bindtap="handle12">充值</view>

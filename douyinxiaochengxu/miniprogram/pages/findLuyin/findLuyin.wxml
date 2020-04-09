@@ -1,0 +1,129 @@
+<view class="tapbar">
+   <view bindtap="qb"class="active">
+  全部</view>
+   <view bindtap="gj" >国际级</view>
+   <view bindtap="ds">大师级</view>
+   <view bindtap="gzs">工作室</view>
+   <view bindtap="bz">标准级</view>
+</view>
+<view>
+   <view hidden="{{spa!=='qb'}}" class="qb" >
+       <view class="title_img">
+           <image style="width:100%;height:100%;" src="../../images/lyp.png"></image>
+       </view>
+       <view class="search">
+           <view class="wz"> 
+               <view>北京</view>
+               <view>
+                    <view>
+                    <image src="../../images/icon_jt.png"></image>
+                    </view> 
+                    <view>
+                        <image src="../../images/icon_map.png"></image>
+                        <view>我的位置 </view>
+                    </view>
+               </view>
+           </view>
+           <view class="rq">
+               <view >
+               <text>03月13日</text>
+                    <text style="display:flex;justify-coltent:space-around;">
+                     <text>今天</text>
+                     <text>周五</text>
+                   </text>
+               </view>
+               <view>
+                   <text>03月13日</text>
+                   <text style="display:flex;justify-coltent:space-around;">
+                     <text></text>
+                     <text>周六</text>
+                   </text>
+                      
+               </view>
+               <view>
+                   <text>03月13日</text>
+                   <text style="display:flex;justify-coltent:space-around;">
+                     <text></text>
+                     <text>周日</text>
+                   </text>
+               </view>
+           </view>
+           <view class="ss">
+                 <input placeholder="试试搜：关键词/棚/地址"></input> </view>
+           <view class="price">
+             <input placeholder="价格/星际"></input>
+           </view>
+           <button  style="background-color:#E4E4E4;width:100%;margin:3% 0; color:#333333;font-weight:normal">搜索录音棚</button>
+       </view>
+       <view class="tj" >
+          <view>为你推荐</view>
+          <view>
+                          <view>
+                      <view >
+                           <image src="../../images/lyp.png"></image> 
+                      </view>
+                      <text>深蓝录音棚</text>
+                      </view>
+                            <view>
+                      <view style="">
+                           <image src="../../images/lyp.png"></image> 
+                          
+                      </view>
+                      <text>深蓝录音棚</text>
+                    </view>
+                  <view>
+                  <view style="">
+                           <image src="../../images/lyp.png"></image> 
+                     
+                  </view>
+                  <text>深蓝录音棚</text>
+                </view>
+                  <view>
+                  <view style="">
+                           <image src="../../images/lyp.png"></image> 
+                      
+                  </view>
+                  <text>深蓝录音棚</text>
+                </view>
+                  <view>
+                  <view style="">
+                           <image src="../../images/lyp.png"></image> 
+                      
+                  </view>
+                  <text>深蓝录音棚</text>
+                </view>
+                  <view>
+                  <view style="">
+                           <image src="../../images/lyp.png"></image> 
+                      
+                  </view>
+                  <text>深蓝录音棚</text>
+                </view>
+          </view>
+          
+       </view>
+       <view class="bangdan">
+         人气榜单入口图
+       </view>
+
+       <view  class="my">
+           <view>
+               <image src="../../images/icon_myFollow.png"></image>
+               <text>我的关注</text>
+           </view>
+           <view>
+               <image src="../../images/mydan.png"></image>
+               <text>我的订单</text>
+           </view>
+       </view>
+   
+   
+   
+   
+   </view>
+   <view hidden="{{spa!=='gj'}}">国际级页面</view>
+   <view hidden="{{spa!=='ds'}}">大师级</view>
+   <view hidden="{{spa!=='gzs'}}">工作室</view>
+   <view hidden="{{spa!=='bz'}}">标准级</view>
+</view>
+

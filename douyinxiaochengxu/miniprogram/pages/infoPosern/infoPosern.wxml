@@ -1,0 +1,49 @@
+<!--pages/infoSet/infoSet.wxml-->
+<view class="info">
+  <view>
+    <view >
+    <text>头像</text>
+    <view class="tx">
+    <image src="../../images/tx.png"></image>
+      <image src="../../images/jiantou.png"></image>
+    </view>
+  </view>
+  <view >
+    <text >昵称</text>
+    <view class="uname">
+    <text>Chreey</text>
+      <image src="../../images/jiantou.png"></image>
+    </view>
+  </view>
+  <view style="border:none;">
+    <text>介绍</text>
+    <view>
+    <text></text>
+      <image src="../../images/jiantou.png"></image>
+    </view>
+  </view>
+  </view>
+<view>
+  <view >
+    <text>性别</text>
+    <view class="color_se">
+    <text>待完善</text>
+      <image src="../../images/jiantou.png"></image>
+    </view>
+  </view>
+  <view>
+    <text>生日</text>
+    <view class="color_se">
+    <text>待完善</text>
+      <image src="../../images/jiantou.png"></image>
+    </view>
+  </view>
+  <view style="border:none;">
+    <text>地址</text>
+    <view class="color_se">
+    <text>待完善</text>
+      <image src="../../images/jiantou.png"></image>
+    </view>
+  </view>
+</view>
+</view>

@@ -1,0 +1,82 @@
+/* pages/recharge/recharge.wxss */
+page{
+  background-color:#fff;
+}
+.biaoyu{
+  display:flex;
+  justify-content: space-around;
+  justify-items: center;
+  padding:45rpx 0;
+  background-color:#AEAEAE;
+  color:#fff;
+  font-weight: 700;
+  font-size:32rpx;
+}
+.main{
+  padding:4%;
+}
+.yue{
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+  margin:2% 0;
+  font-size:30rpx;
+  margin-bottom:4%;
+}
+.money{
+  text-align:center;
+  border:2rpx solid #E4E4E4;
+  padding:3% 0;
+  width:100;
+  margin-top:10rpx;
+  font-weight: 900;
+  font-size:35rpx;
+}
+.gengduo{
+  display:flex;
+  position:relative;
+  justify-content: center;
+  align-items: center;
+  height:120rpx;
+}
+.gengduo>text{
+  position:absolute;
+  background-color:#fff;
+  padding:0 4rpx;
+  font-size:30rpx;
+  color:#949494;
+}
+.gengduo>view{
+  width:100%;
+  padding:0;margin:0;
+  height:0rpx;
+  border:2rpx solid #E4E4E4;
+}
+
+/* 优惠金额 */
+.youhui{
+  display:flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding:5% 3%;
+  font-size:30rpx;
+  color:#5E5E5E;
+}
+.youhui>view{
+  
+  margin-bottom:30rpx;
+  border:1px solid #E4E4E4;
+  box-sizing: border-box;
+padding:15rpx 9rpx;
+height:150rpx;
+width:30%;
+}
+.youhui>view>view{
+  text-align:center;
+
+}
+.youhui .active{
+  color:#ff0000;
+}
+

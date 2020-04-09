@@ -1,0 +1,120 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"enhance": true
+	},
+	"appid": "wx84ddd71190284377",
+	"projectname": "shezhi_liu",
+	"libVersion": "2.8.1",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 5,
+			"list": [
+				{
+					"id": 0,
+					"name": "店铺资料",
+					"pathName": "pages/dianpzz/dianpzz",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "关注粉丝",
+					"pathName": "pages/fansFollow/fansFollow",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "找录音棚",
+					"pathName": "pages/findLuyin/findLuyin",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "录音棚ditu",
+					"pathName": "pages/lypMap/lypMap",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/luyinList/luyinList",
+					"pathName": "pages/luyinList/luyinList",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/dianpzz/dianpzz",
+					"pathName": "pages/dianpzz/dianpzz",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/lypMap/lypMap",
+					"pathName": "pages/lypMap/lypMap",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/infoSet/infoSet",
+					"pathName": "pages/infoSet/infoSet",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "vip",
+					"pathName": "pages/myVipCar/myVipCar",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "recharge",
+					"pathName": "pages/recharge/recharge",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/infoSet/infoSet",
+					"pathName": "pages/infoSet/infoSet",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

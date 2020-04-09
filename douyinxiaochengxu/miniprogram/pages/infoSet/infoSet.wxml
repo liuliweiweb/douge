@@ -1,0 +1,57 @@
+<!--pages/infoSet/infoSet.wxml-->
+<view class="info">
+  <view>
+      <view style="border:none;">
+         <text>个人资料</text>
+         <view>
+           <image src="../../images/jiantou.png"></image>
+         </view>
+      </view>
+   </view>
+
+   <view>
+        <view>
+          <text >我的手机</text>
+          <view>
+              <text style="color:#A1A1A1">18033717079</text>
+              <image src="../../images/jiantou.png"></image>
+          </view>
+        </view>
+        <view>
+            <text>实名认证</text>
+            <view class="renz">
+                <text>未认证</text>
+                <image src="../../images/jiantou.png"></image>
+            </view>
+        </view>
+        <view style="border:none;">
+            <text>店铺资质</text>
+            <view class="renz">
+               <text>认证</text>
+               <image src="../../images/jiantou.png"></image>
+            </view>
+        </view>
+  </view>
+  
+  <view>
+      <view>
+          <text>服务投诉</text>
+          <view>
+              <image src="../../images/jiantou.png"></image>
+          </view>
+      </view>
+      <view>
+          <text>联系客服</text>
+      <view>
+        <text style="color:#A1A1A1">400-6866-200</text>
+      </view>
+      </view>
+      <view style="border:none;">
+        <text>关于我们</text>
+        <view>
+        <image src="../../images/jiantou.png"></image>
+      </view>
+      </view>
+  </view>
+  
+</view>

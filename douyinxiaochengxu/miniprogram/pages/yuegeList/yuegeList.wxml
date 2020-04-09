@@ -1,0 +1,232 @@
+<!--pages/yuegeList/yuegeList.wxml-->
+
+<view class="input">
+      <view  >
+        <view>
+           <text style="color:#FF0000;">北京</text>
+           <text decode="{{true}}">&nbsp; &nbsp;|&nbsp;&nbsp; </text>
+           <text style="font-weight:bold;">03月13日</text>
+        </view>
+        <view>
+          <image src="../../images/icon_search.png"></image>
+          <input style="height:100%;" placeholder="请输入关键词"></input>
+          <image src="../../images/icon_del.png"></image>
+        </view>
+      </view>
+   </view>
+
+   <view class="selected">
+         <view>
+           <text>价格</text>
+           <image src="../../images/bottom_jt.png"></image>
+         </view>
+         <view>
+           <text>星级</text>
+           <image src="../../images/bottom_jt.png"></image>
+         </view>
+         <view>
+           <text>分类</text>
+           <image src="../../images/bottom_jt.png"></image>
+         </view>
+         <view>
+           <text>推荐排序</text>
+           <image src="../../images/bottom_jt.png"></image>
+         </view>
+      </view>
+
+<!-- 详情列表 -->
+<view class="details">
+           <!-- 遍历对象  创建元素 -->
+            <view class="detailList">
+                 <image src="../../images/lyp.png"></image>
+                 <view>
+                    <view>
+                        <text>新新代作词服务</text>
+                        <image src="../../images/icon_xin.png"></image>
+                        <text style="font-size:28rpx;color:#A1A1A1;">585</text>
+                    </view>
+                    <view>
+                       <text>走过路过不要错过</text>
+                    </view>
+                    <view>
+                       <text style="color:#FF0000;font-size:42rpx;">￥800</text><text style="font-size:35rpx;color:#A1A1A1;">每首歌</text>
+                    </view>
+                    <view>
+                         <image src="../../images/user.png"></image>
+                         <text>深蓝录音棚</text>
+              <view style=" display:inline-block;background-color:#868686;border-radius:50%;width:50rpx;height:50rpx;text-align:center;line-height:40rpx;">
+              <image style="width:70%;height:70%;vertical-align:middle;" src="../../images/car.png"></image>
+              </view>          
+                    </view>
+                 </view>
+            </view>
+            <view class="detailList">
+                 <image src="../../images/lyp.png"></image>
+                 <view>
+                    <view>
+                        <text>新新代作词服务</text>
+                        <image src="../../images/icon_xin.png"></image>
+                        <text style="font-size:28rpx;color:#A1A1A1;">585</text>
+                    </view>
+                    <view>
+                       <text>走过路过不要错过</text>
+                    </view>
+                    <view>
+                       <text style="color:#FF0000;font-size:42rpx;">￥800</text><text style="font-size:35rpx;color:#A1A1A1;">每首歌</text>
+                    </view>
+                    <view>
+                         <image src="../../images/user.png"></image>
+                         <text>深蓝录音棚</text>
+              <view style=" display:inline-block;background-color:#868686;border-radius:50%;width:50rpx;height:50rpx;text-align:center;line-height:40rpx;">
+              <image style="width:70%;height:70%;vertical-align:middle;" src="../../images/car.png"></image>
+              </view>          
+                    </view>
+                 </view>
+            </view>
+            <view class="detailList">
+                 <image src="../../images/lyp.png"></image>
+                 <view>
+                    <view>
+                        <text>新新代作词服务</text>
+                        <image src="../../images/icon_xin.png"></image>
+                        <text style="font-size:28rpx;color:#A1A1A1;">585</text>
+                    </view>
+                    <view>
+                       <text>走过路过不要错过</text>
+                    </view>
+                    <view>
+                       <text style="color:#FF0000;font-size:42rpx;">￥800</text><text style="font-size:35rpx;color:#A1A1A1;">每首歌</text>
+                    </view>
+                    <view>
+                         <image src="../../images/user.png"></image>
+                         <text>深蓝录音棚</text>
+              <view style=" display:inline-block;background-color:#868686;border-radius:50%;width:50rpx;height:50rpx;text-align:center;line-height:40rpx;">
+              <image style="width:70%;height:70%;vertical-align:middle;" src="../../images/car.png"></image>
+              </view>          
+                    </view>
+                 </view>
+            </view>
+            <view class="detailList">
+                 <image src="../../images/lyp.png"></image>
+                 <view>
+                    <view>
+                        <text>新新代作词服务</text>
+                        <image src="../../images/icon_xin.png"></image>
+                        <text style="font-size:28rpx;color:#A1A1A1;">585</text>
+                    </view>
+                    <view>
+                       <text>走过路过不要错过</text>
+                    </view>
+                    <view>
+                       <text style="color:#FF0000;font-size:42rpx;">￥800</text><text style="font-size:35rpx;color:#A1A1A1;">每首歌</text>
+                    </view>
+                    <view>
+                         <image src="../../images/user.png"></image>
+                         <text>深蓝录音棚</text>
+              <view style=" display:inline-block;background-color:#868686;border-radius:50%;width:50rpx;height:50rpx;text-align:center;line-height:40rpx;">
+              <image style="width:70%;height:70%;vertical-align:middle;" src="../../images/car.png"></image>
+              </view>          
+                    </view>
+                 </view>
+            </view>
+            <view class="detailList">
+                 <image src="../../images/lyp.png"></image>
+                 <view>
+                    <view>
+                        <text>新新代作词服务</text>
+                        <image src="../../images/icon_xin.png"></image>
+                        <text style="font-size:28rpx;color:#A1A1A1;">585</text>
+                    </view>
+                    <view>
+                       <text>走过路过不要错过</text>
+                    </view>
+                    <view>
+                       <text style="color:#FF0000;font-size:42rpx;">￥800</text><text style="font-size:35rpx;color:#A1A1A1;">每首歌</text>
+                    </view>
+                    <view>
+                         <image src="../../images/user.png"></image>
+                         <text>深蓝录音棚</text>
+              <view style=" display:inline-block;background-color:#868686;border-radius:50%;width:50rpx;height:50rpx;text-align:center;line-height:40rpx;">
+              <image style="width:70%;height:70%;vertical-align:middle;" src="../../images/car.png"></image>
+              </view>          
+                    </view>
+                 </view>
+            </view>
+            <view class="detailList">
+                 <image src="../../images/lyp.png"></image>
+                 <view>
+                    <view>
+                        <text>新新代作词服务</text>
+                        <image src="../../images/icon_xin.png"></image>
+                        <text style="font-size:28rpx;color:#A1A1A1;">585</text>
+                    </view>
+                    <view>
+                       <text>走过路过不要错过</text>
+                    </view>
+                    <view>
+                       <text style="color:#FF0000;font-size:42rpx;">￥800</text><text style="font-size:35rpx;color:#A1A1A1;">每首歌</text>
+                    </view>
+                    <view>
+                         <image src="../../images/user.png"></image>
+                         <text>深蓝录音棚</text>
+              <view style=" display:inline-block;background-color:#868686;border-radius:50%;width:50rpx;height:50rpx;text-align:center;line-height:40rpx;">
+              <image style="width:70%;height:70%;vertical-align:middle;" src="../../images/car.png"></image>
+              </view>          
+                    </view>
+                 </view>
+            </view>
+            <view class="detailList">
+                 <image src="../../images/lyp.png"></image>
+                 <view>
+                    <view>
+                        <text>新新代作词服务</text>
+                        <image src="../../images/icon_xin.png"></image>
+                        <text style="font-size:28rpx;color:#A1A1A1;">585</text>
+                    </view>
+                    <view>
+                       <text>走过路过不要错过</text>
+                    </view>
+                    <view>
+                       <text style="color:#FF0000;font-size:42rpx;">￥800</text><text style="font-size:35rpx;color:#A1A1A1;">每首歌</text>
+                    </view>
+                    <view>
+                         <image src="../../images/user.png"></image>
+                         <text>深蓝录音棚</text>
+              <view style=" display:inline-block;background-color:#868686;border-radius:50%;width:50rpx;height:50rpx;text-align:center;line-height:40rpx;">
+              <image style="width:70%;height:70%;vertical-align:middle;" src="../../images/car.png"></image>
+              </view>          
+                    </view>
+                 </view>
+            </view>
+            <view class="detailList">
+                 <image src="../../images/lyp.png"></image>
+                 <view>
+                    <view>
+                        <text>新新代作词服务</text>
+                        <image src="../../images/icon_xin.png"></image>
+                        <text style="font-size:28rpx;color:#A1A1A1;">585</text>
+                    </view>
+                    <view>
+                       <text>走过路过不要错过</text>
+                    </view>
+                    <view>
+                       <text style="color:#FF0000;font-size:42rpx;">￥800</text><text style="font-size:35rpx;color:#A1A1A1;">每首歌</text>
+                    </view>
+                    <view>
+                         <image src="../../images/user.png"></image>
+                         <text>深蓝录音棚</text>
+              <view style=" display:inline-block;background-color:#868686;border-radius:50%;width:50rpx;height:50rpx;text-align:center;line-height:40rpx;">
+              <image style="width:70%;height:70%;vertical-align:middle;" src="../../images/car.png"></image>
+              </view>          
+                    </view>
+                 </view>
+            </view>
+            <!-- 列表结束 -->
+            <view style="text-align:center;padding:10% 0;">加载更多
+            </view>
+       </view>
+<!-- 购物车 -->
+       <view style="position:fixed;background-color:#434343;border-radius:50%;width:100rpx;height:100rpx;bottom:10%;right:5%;display:flex;justify-content:center;align-items:center;">
+       <view style="position:absolute;background-color:red;width:40rpx;height:40rpx;border-radius:50%;color:#fff;font-size:33rpx;top:15%;right:10%;text-align:center;line-height:40rpx;">2</view>
+         <image style="width:60%;height:60%" src="../../images/car.png"></image>
+       </view>

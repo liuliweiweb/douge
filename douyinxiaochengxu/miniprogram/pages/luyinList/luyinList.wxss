@@ -1,0 +1,138 @@
+/* pages/luyinList/luyinList.wxss */
+/* 搜索 */
+/* 搜索下拉导航 */
+pages{
+  font-size:30rpx;
+}
+image{
+   width:30rpx;height:30rpx;
+}
+/* 搜索框样式 */
+.input{
+  display:flex;
+  justify-content: space-around;
+  font-size:30rpx;
+  align-items:center;
+}
+.input>view{
+  background-color:#fff;
+  display:flex;
+  justify-content: space-around;
+  width:90%;
+  align-items: center;
+  margin:3% 0;
+}
+.input>view>view{
+  display:flex;
+  align-items:center;
+}
+.input input{
+  margin:0 3%;
+}
+
+
+/* 下拉菜单样式 */
+.search{
+  background-color:#fff;
+}
+.selected image{
+   width:25rpx;height:25rpx;
+}
+
+.selected{
+  display:flex;
+  justify-content: space-around;
+  padding:1% 0;
+  border-bottom:2rpx solid transparent;
+  font-size:30rpx;
+  
+}
+/* .selected>view{
+  width:25%;
+  text-align: center;
+} */
+.key{
+  display:flex;
+  justify-content: space-around;
+  padding:10rpx 0;
+}
+.key>text{
+  font-size:30rpx;
+  border:2rpx solid #E4E4E4;
+  border-radius:10rpx;
+  padding:4rpx;
+}
+
+/* 录音棚列表 */
+.list{
+  width:100%;
+  background-color:#fff;
+  border-top:8rpx solid #F2F2F2;
+  padding-top:3%;
+}
+.list image{
+  width:80rpx;height:80rpx;
+  vertical-align: middle;
+}
+.list text{
+   font-size:30rpx;
+}
+.list_n{
+  display:flex;
+  width:95%;
+  margin:auto;
+  justify-content: space-around;
+}
+
+.list_n>.listLeft{
+  position:relative;
+}
+.list_n>.listLeft>image{
+  width:200rpx;
+  height:200rpx;
+  
+}
+.list_n>.listLeft>view{
+   position:absolute;
+   font-size:30rpx;
+   color:#fff;
+   background-color:#000;
+   border-radius:10rpx;
+   bottom:5%;
+   left:6%;
+   padding:2% 5%;
+}
+.listRight{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.listRight>view:first-child image{
+  width:35rpx;
+  height:35rpx;
+  vertical-align: middle;
+}
+.aaa:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* 订单 */
+.dingdan{
+  display:flex;
+  flex-direction:column;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#FFE84D;
+  position:fixed;
+  border-radius:50%;
+  width:120rpx;
+  height:120rpx;
+  bottom:20%;right:10%;
+  font-size:30rpx;
+}
+.dingdan image{
+  width:50rpx;height:50rpx;
+}

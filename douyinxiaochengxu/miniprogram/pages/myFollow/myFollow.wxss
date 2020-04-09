@@ -1,0 +1,81 @@
+/* pages/fansFollow/fansFollow.wxss */
+page{
+  background-color:#fff;
+  font-size:1rem;
+}
+.title{
+  background-color:#5C5C5C;
+  display:flex;
+  justify-content: center;
+  padding:4% 0;
+}
+.title>view{
+  width:30%;
+  color:#ccc;
+  font-size:1rem;
+  text-align:center;
+}
+.title .active{
+  color:#FFF;
+  padding-bottom:2%;
+  border-bottom:.2rem solid #FFFF66;
+}
+.list{
+  padding:0 4%;
+}
+
+/* 关注页面样式 */
+.follow>view{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom:5%;
+}
+.follow>view:first-child{
+  margin-top:5%;
+}
+.follow>view>image{
+  border:1px solid ;
+  border-radius:50%;
+  width:3rem;
+  height:3rem;
+}
+.follow>view>view{
+  display:flex;
+  flex-direction:column;
+}
+.follow>view>view>text{
+  overflow:hidden;
+
+           word-break:keep-all;
+
+           white-space:nowrap;
+
+           text-overflow:ellipsis;
+}
+.follow>view>view>text:first-child{
+  font-size:1rem;
+}
+.follow>view>view:last-child{
+  align-items: center;
+}
+.follow>view>view>text:nth-child(2){
+  font-size:.8rem;
+  color:#868686;
+  margin-top:.2rem;
+}
+.follow .yiguanzhu{
+  width:4rem;
+ text-align:center;
+  border:1px solid ;font-size:.6rem;border-radius:.3rem;padding:1% 0;
+  background-color:#FF3333;
+  color:#fff;
+}
+.follow .weiguanzhu{
+  width:4rem;
+  text-align:center;
+  border:1px solid ;font-size:.6rem;border-radius:.3rem;padding:1% 0;
+  background-color:#ffffff;
+  margin:auto;
+}
+

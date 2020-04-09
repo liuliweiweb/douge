@@ -1,0 +1,32 @@
+/* pages/infoSet/infoSet.wxss */
+page{
+  background-color:#ffffff;
+  font-size:32rpx;
+}
+.info{
+  width:100%;
+  
+}
+.info>view{
+  padding:0 5%;
+  border-bottom:14rpx solid #f2f2f2;
+}
+.info>view>view{
+  border:0;
+  display:flex;
+  justify-content: space-between;
+  padding:5% 0;
+  background-color: #fff;
+  border-bottom:6rpx solid #f2f2f2;
+}
+.info>view>view>view>text{
+  margin-right:30rpx;
+}
+image{
+  width:35rpx;
+  height:35rpx;
+  vertical-align: middle;
+}
+.renz{
+  color:#6633FF;
+}

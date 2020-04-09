@@ -1,0 +1,46 @@
+<!--pages/lypMap/lypMap.wxml-->
+<view style="position:fixed;width:100%;height:17%;top:0; ">
+       <view class="input">
+      <view   style="padding:2% 0;">
+        <view>
+           <text style="color:#FF0000;">北京</text>
+           <text decode="{{true}}">&nbsp; &nbsp;|&nbsp;&nbsp; </text>
+           <text style="font-weight:bold;">03月13日</text>
+        </view>
+        <view>
+          <image src="../../images/icon_search.png"></image>
+          <input placeholder="请输入关键词"></input>
+          <image src="../../images/icon_del.png"></image>
+        </view>
+      </view>
+      <image src="../../images/caidan.png"></image>
+   
+   </view>
+   <view class="nav">
+       <view>
+         <text>距离</text>
+         <image src="../../images/bottom_jt.png"></image>
+       </view>
+       <view>
+         <text>星级</text>
+         <image src="../../images/bottom_jt.png"></image>
+       </view>
+       <view>
+         <text>筛选</text>
+         <image src="../../images/bottom_jt.png"></image>
+       </view>
+   
+</view>
+<!-- 地图 -->
+</view>
+<view class="map">
+    <map
+    longitude="116.5316780000"
+ latitude="39.9095390000"
+ scale="14"
+ show-location="true"
+ markers="{{marker}}"
+    ></map>
+</view>
+
+   

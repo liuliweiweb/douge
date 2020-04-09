@@ -1,0 +1,176 @@
+/* pages/findLuyin/findLuyin.wxss */
+/* 顶部SPA样式 */
+pages{
+  font-size:32rpx;
+}
+input{
+  height:100%;
+}
+.tapbar{
+  width:100%;
+  display:flex;
+  justify-content: space-around;
+  color:#fff;
+  background-color:#5D5D5D;
+  border-bottom:12rpx solid #959595;
+}
+.tapbar>view{
+  text-align: center;
+  display:felx;
+  padding:4% 0;
+  height:99%;
+  margin-bottom:2rpx;
+  
+}
+.tapbar .active{
+  border-bottom:6rpx solid #E5FF00;
+  color:#E5FF00;
+}
+
+/* 主题内容 */
+ /* 全部 */
+.qb{
+  width:100%;
+  background-image:linear-gradient(to bottom,#C2C2C2 ,#fff )
+}
+.title_img{
+  width:100%;
+  background-color:#E8DEDE;
+  height:130rpx;
+}
+.qb>.search{
+  background-color:#fff;
+  border:1rpx solid #797979;
+  width:93%;
+  margin:auto;
+  margin-top:2%;
+  border-radius:20rpx;
+  padding:5% 5%;
+  box-sizing:border-box;
+}
+.qb .search>view{
+  border-bottom:2rpx solid #D7D7D7;
+}
+ .wz{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wz image{
+  width:40rpx;height:40rpx;
+  vertical-align:middle;
+}
+.wz>view:first-child{
+  font-size:35rpx;
+}
+.wz>view:last-child{
+  display:flex;
+  width:30%;
+  justify-content: space-between;
+}
+.wz>view>view:last-child{
+   display:flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   font-size:30rpx;
+}
+
+.rq{
+  height:90rpx;
+
+}
+.rq>view{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.rq>view>text:first-child{
+  font-size:30rpx;font-weight: bold;
+}
+.rq>view>text:last-child{
+  font-size:30rpx;
+  color:#949494;
+}
+.ss{
+  color:#949494;
+  font-size:30rpx;
+  padding:1.5% 0;
+}
+.price{
+  color:#949494;
+  font-size:30rpx;
+  padding:1.5% 0;
+}
+
+/* 为你推荐 */
+.tj{
+  width:93%;
+  margin:auto;
+}
+.tj>view{
+}
+.tj>view:first-child{
+  font-weight: bold;font-size:30rpx;
+  padding:3% 0;
+}
+.tj>view:last-child{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+.tj>view>view{
+  width:31%;
+  font-size:30rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.tj>view>view>view{
+  width:160rpx;
+  height:160rpx;
+  border:2rpx solid #000;
+  border-radius:20rpx;
+  
+}
+.tj>view>view>view>image{
+  width:100%;
+  height:100%;
+  border-radius:20rpx;
+}
+.tj>view>view>text{
+  padding:5% 0;
+}
+/* 榜单入口图 */
+.bangdan{
+  width:100%;
+  display:flex;
+  justify-content:space-around;
+}
+.bangdan>view{
+  width:40%;
+  padding:4% 0;
+  background-color:#E2e2e2;
+  text-align:center;
+  
+}
+
+/* 我的关注  我的订单 */
+.my{
+  display:flex;
+  justify-content: space-around;
+  padding:4% 0;
+}
+.my>view{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+.my image{
+  width:50rpx;
+  height:50rpx;
+}

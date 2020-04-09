@@ -1,0 +1,35 @@
+<!--pages/fansFollow/fansFollow.wxml-->
+<view class="title">
+    <view class="active"><text>关注</text>39</view>
+    <view bindtap="pagesFans"><text>粉丝</text>36</view>
+</view>
+<view class="list">
+
+  <!-- follow:关注列表 -->
+   <view wx:if="{{active}}" class="follow">
+      <view  >
+         <image src="../../images/1.png"></image>
+         <view style="width:50%;">
+           <text>爆哥好歌分享</text>
+           <text>分享好听的好声音分享好听的好声音</text>
+         </view>
+         <view  style="width:30%">
+           <view class="weiguanzhu">已关注</view>
+         </view>
+
+      </view>
+
+
+      <view  >
+         <image src="../../images/jiantou.png"></image>
+         <view style="width:50%;">
+           <text>爆哥好歌分享</text>
+           <text>分享好听的好声音分享好听的好声音</text>
+         </view>
+         <view  style="width:30%;">
+           <view class="yiguanzhu">关注</view>
+         </view>
+      </view>
+    </view>
+</view>
+    

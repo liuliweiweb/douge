@@ -1,0 +1,36 @@
+{
+  "pages": [
+     
+    "pages/pagess/pagess",
+    "pages/recharge/recharge",
+    
+    "pages/myVipCar/myVipCar",
+    
+    "pages/yuegeList/yuegeList",
+    
+    "pages/luyinList/luyinList",
+    
+    "pages/findLuyin/findLuyin",
+    
+    "pages/fansFollow/fansFollow",
+    
+"pages/findComposerIndex/findComposerIndex",
+    
+"pages/findComposerSearch/findComposerSearch",
+    "pages/lypMap/lypMap",
+    "pages/dianpzz/dianpzz",
+    "pages/infoPosern/infoPosern",
+    "pages/infoSet/infoSet",
+    "pages/myFollow/myFollow",
+    "pages/myFans/myFans"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

@@ -1,0 +1,169 @@
+<!--pages/luyinList/luyinList.wxml-->
+<view class="contain">
+   <view class="input">
+      <view  >
+        <view>
+           <text style="color:#FF0000;">北京</text>
+           <text decode="{{true}}">&nbsp; &nbsp;|&nbsp;&nbsp; </text>
+           <text style="font-weight:bold;">03月13日</text>
+        </view>
+        <view>
+          <image src="../../images/icon_search.png"></image>
+          <input style="height:100%;" placeholder="请输入关键词"></input>
+          <image src="../../images/icon_del.png"></image>
+        </view>
+      </view>
+      <image src="../../images/map.png"></image>
+   </view>
+
+
+   <view class="search">
+      <view class="selected">
+         <view style="position:relative;">
+           <text>距离</text>
+           <image src="../../images/bottom_jt.png"></image>
+           <!-- <view style="position:absolute;top:100%;border:1px solid red;width:100%;"> 1</view> -->
+         </view>
+         <view>
+           <text>星级</text>
+           <image src="../../images/bottom_jt.png"></image>
+         </view>
+         <view>
+           <text>推荐排序</text>
+           <image src="../../images/bottom_jt.png"></image>
+         </view>
+         <view>
+           <text>筛选</text>
+           <image src="../../images/bottom_jt.png"></image>
+         </view>
+      </view>
+      <view class="key">
+         <text>特惠</text>
+         <text>管弦乐录制</text>
+         <text>电声录制</text>
+         <text>特邀制作</text>
+         <text>歌曲发行</text>
+      </view>
+   </view>
+   <!-- 需要循环遍历数组录音棚列表 -->
+   <view class="list">
+      <!-- 第一个start -->
+      <view class="list_n">
+          <view class="listLeft">
+              <view>大师级</view>
+              <image src="../../images/lyp.png"></image>
+          </view>
+          <view class="listRight">
+             <view style="display:flex;align-items:center;">
+                <text style="margin-right:20%">北京深蓝录音棚</text> 
+                <view>
+                    <image src="../../images/icon_xin.png" style="margin-right:10rpx"></image><text>585</text>
+                </view>
+             </view>
+             <view>
+                <text style="color:#FF6600;">4.8分</text>
+                <text style="color:#FF6600;font-weight:bold;margin-right:2%">很好</text>
+                <text style="color:#868686;">11815条评论位置优越</text>  
+             </view>
+             <view>
+                <text style="color:#868686;">据我7.7km</text> |
+                <text style="color:#868686;">西直门</text>
+             </view>
+             <view style="font-size:30rpx;background-color:#FFFFCC;color:#AB8D59">"乐器录音、合唱录音、弦乐录音"</view>
+          </view>
+      </view>
+     <view >
+        <view style="float:right;margin-right:8%;" class="aaa">
+           <view style="text-align:center;font-size:30rpx;color:#FF6600;" ><text style="color:red;font-size:35rpx;">￥618</text> 起</view>
+           <view style="font-size:30rpx;color:#FF6600;">录音每小时最低价</view>
+           
+        </view>
+        <view style="clear:both;hight:0;"></view>
+     </view>
+   </view>
+   
+      <!-- 第一个end -->
+  <view class="list">
+      <!-- 第一个start -->
+      <view class="list_n">
+          <view class="listLeft">
+              <view>大师级</view>
+              <image src="../../images/lyp.png"></image>
+          </view>
+          <view class="listRight">
+             <view style="display:flex;align-items:center;">
+                <text style="margin-right:20%">北京深蓝录音棚</text> 
+                <view>
+                    <image src="../../images/icon_xin.png" style="margin-right:10rpx"></image><text>585</text>
+                </view>
+             </view>
+             <view>
+                <text style="color:#FF6600;">4.8分</text>
+                <text style="color:#FF6600;font-weight:bold;margin-right:2%">很好</text>
+                <text style="color:#868686;">11815条评论位置优越</text>  
+             </view>
+             <view>
+                <text style="color:#868686;">据我7.7km</text> |
+                <text style="color:#868686;">西直门</text>
+             </view>
+             <view style="font-size:30rpx;background-color:#FFFFCC;color:#AB8D59">"乐器录音、合唱录音、弦乐录音"</view>
+          </view>
+      </view>
+     <view >
+        <view style="float:right;margin-right:8%;" class="aaa">
+           <view style="text-align:center;font-size:30rpx;color:#FF6600;" ><text style="color:red;font-size:35rpx;">￥618</text> 起</view>
+           <view style="font-size:30rpx;color:#FF6600;">录音每小时最低价</view>
+           
+        </view>
+        <view style="clear:both;hight:0;"></view>
+     </view>
+   </view>
+   <view class="list">
+      <!-- 第一个start -->
+      <view class="list_n">
+          <view class="listLeft">
+              <view>大师级</view>
+              <image src="../../images/lyp.png"></image>
+          </view>
+          <view class="listRight">
+             <view style="display:flex;align-items:center;">
+                <text style="margin-right:20%">北京深蓝录音棚</text> 
+                <view>
+                    <image src="../../images/icon_xin.png" style="margin-right:10rpx"></image><text>585</text>
+                </view>
+             </view>
+             <view>
+                <text style="color:#FF6600;">4.8分</text>
+                <text style="color:#FF6600;font-weight:bold;margin-right:2%">很好</text>
+                <text style="color:#868686;">11815条评论位置优越</text>  
+             </view>
+             <view>
+                <text style="color:#868686;">据我7.7km</text> |
+                <text style="color:#868686;">西直门</text>
+             </view>
+             <view style="font-size:30rpx;background-color:#FFFFCC;color:#AB8D59">"乐器录音、合唱录音、弦乐录音"</view>
+          </view>
+      </view>
+     <view >
+        <view style="float:right;margin-right:8%;" class="aaa">
+           <view style="text-align:center;font-size:30rpx;color:#FF6600;" ><text style="color:red;font-size:35rpx;">￥618</text> 起</view>
+           <view style="font-size:30rpx;color:#FF6600;">录音每小时最低价</view>
+           
+        </view>
+        <view style="clear:both;hight:0;"></view>
+     </view>
+   </view>
+   <!-- 需要循环遍历数组录音棚列表 -->
+   
+   
+
+
+   <view style="background-color:#F2F2F2;text-align:center;padding:5% 0;">加载更多</view>
+</view>
+
+<!-- 订单图标 -->
+<view class="dingdan">
+  
+  <image src="../../images/mydan.png"></image>
+  <view>订单</view>
+</view>

@@ -1,0 +1,76 @@
+<!--pages/myVipCar/myVipCar.wxml-->
+<view class="top">
+  <view class="info">
+    <image src="../../images/user.png" class="info-left"></image>
+    <view class="info-right">
+        <view class="info-name">
+             <view class="names">疯狂少年</view>
+             <view class="kg">
+                <image src="../../images/King.png"></image>
+                <text>k歌</text>
+             </view>
+        </view>
+        <view class="day"> 来到抖歌已100天</view>
+     </view> <!--   end  infon-right  -->
+  </view><!--   end  infon  -->
+  <view >
+     <view class="invote">已邀请5人</view>
+     <view class="progress">
+        <progress style="width:85%;"percent="20"stroke-width="8"border-radius="8"activeColor="#FFFCCC" />
+      <view >
+          <image src="../../images/zhushi.png" class="progress-right"></image>
+          <view >5/20</view>
+      </view>
+     </view>
+     <view class="dengji">
+        <view>
+             每邀请一个好友可获得50佣金
+        </view>
+        <view style="color:#fff">
+            升级 <text style="color:#FF661D">达人</text>
+        </view>
+     </view>
+  </view>
+</view>
+<view class="main">
+   <view class="main-top">
+         <view class="tuiguang">
+            <view>邀请好友</view>
+            <view>我的推广 <image src="../../images/icon_jt.png"></image></view>
+         </view>
+         <view class="shouyi">
+            <view>
+                <view>今日收益</view>
+                <view><text>250</text> 佣金</view>
+            </view>
+            <view>
+                <view>近30天收益</view>
+                <view><text>250</text>佣金</view>
+            </view>
+            <view>
+                <view>今日收益</view>
+                <view><text>250</text>佣金</view>
+            </view>
+            
+         </view>
+   </view>
+   <!-- 下边的框 -->
+   <view class="main-bottom">
+       <view class="biaoyu">
+           <view>充值干柴</view>
+           <view>送抵扣卷</view>
+           <view>多充多送</view>
+       </view>
+       <!-- 充值 -->
+       <view class="chongzhi">
+          <view>充值金额</view>
+          <image></image>
+       </view>
+       <view class="youhui">
+           <view wx:for="{{youhui}}" wx:key="index">
+               <view>{{item.money}}元</view>
+               <view>送{{item.dk}}抵扣卷</view>
+           </view>
+       </view>
+   </view>
+</view>

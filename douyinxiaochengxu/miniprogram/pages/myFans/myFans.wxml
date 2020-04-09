@@ -1,0 +1,160 @@
+<!--pages/fansFollow/fansFollow.wxml-->
+<view class="title">
+    <view bindtap="pagesFollow"><text >关注</text>39</view>
+    <view class="active" ><text>粉丝</text>36</view>
+</view>
+<view class="list">
+   <!-- 粉丝列表 -->
+    <view wx:if="{{!active}}" class="fans">
+       <view>
+          <image src="../../images/1.png"></image> 
+          <view style="width:50%;">
+            <text>爆哥好歌分享</text>
+            <text>该用户关注了你</text>
+          </view>
+          <view style="width:30%;">
+            <text class="yiguanzhu">已关注</text>
+            <text style="font-size:2rem;">···</text>
+          </view>
+        </view>
+       <view>
+          <image src="../../images/1.png"></image> 
+          <view style="width:50%;">
+            <text>七月阳光</text>
+            <text>该用户关注了你</text>
+          </view>
+          <view style="width:30%;">
+            <text >关注</text>
+            <text style="font-size:2rem;">···</text>
+          </view>
+        </view>
+       <view>
+          <image src="../../images/1.png"></image> 
+          <view style="width:50%;">
+            <text>江西表表虎哥</text>
+            <text>该用户关注了你</text>
+          </view>
+          <view style="width:30%;">
+            <text >关注</text>
+            <text style="font-size:2rem;">···</text>
+          </view>
+        </view>
+       <view>
+          <image src="../../images/1.png"></image> 
+          <view style="width:50%;">
+            <text>江西表表虎哥</text>
+            <text>该用户关注了你</text>
+          </view>
+          <view style="width:30%;">
+            <text >关注</text>
+            <text style="font-size:2rem;">···</text>
+          </view>
+        </view>
+       <view>
+          <image src="../../images/1.png"></image> 
+          <view style="width:50%;">
+            <text>江西表表虎哥</text>
+            <text>该用户关注了你</text>
+          </view>
+          <view style="width:30%;">
+            <text >关注</text>
+            <text style="font-size:2rem;">···</text>
+          </view>
+        </view>
+       <view>
+          <image src="../../images/1.png"></image> 
+          <view style="width:50%;">
+            <text>江西表表虎哥</text>
+            <text>该用户关注了你</text>
+          </view>
+          <view style="width:30%;">
+            <text >关注</text>
+            <text style="font-size:2rem;">···</text>
+          </view>
+        </view>
+       <view>
+          <image src="../../images/1.png"></image> 
+          <view style="width:50%;">
+            <text>江西表表虎哥</text>
+            <text>该用户关注了你</text>
+          </view>
+          <view style="width:30%;">
+            <text >关注</text>
+            <text style="font-size:2rem;">···</text>
+          </view>
+        </view>
+       <view>
+          <image src="../../images/1.png"></image> 
+          <view style="width:50%;">
+            <text>江西表表虎哥</text>
+            <text>该用户关注了你</text>
+          </view>
+          <view style="width:30%;">
+            <text >关注</text>
+            <text style="font-size:2rem;">···</text>
+          </view>
+        </view>
+       <view>
+          <image src="../../images/1.png"></image> 
+          <view style="width:50%;">
+            <text>江西表表虎哥</text>
+            <text>该用户关注了你</text>
+          </view>
+          <view style="width:30%;">
+            <text >关注</text>
+            <text style="font-size:2rem;">···</text>
+          </view>
+        </view>
+       <view>
+          <image src="../../images/1.png"></image> 
+          <view style="width:50%;">
+            <text>江西表表虎哥</text>
+            <text>该用户关注了你</text>
+          </view>
+          <view style="width:30%;">
+            <text >关注</text>
+            <text style="font-size:2rem;">···</text>
+          </view>
+        </view>
+       <view>
+          <image src="../../images/1.png"></image> 
+          <view style="width:50%;">
+            <text>江西表表虎哥</text>
+            <text>该用户关注了你</text>
+          </view>
+          <view style="width:30%;">
+            <text >关注</text>
+            <text style="font-size:2rem;">···</text>
+          </view>
+        </view>
+       <view>
+          <image src="../../images/1.png"></image> 
+          <view style="width:50%;">
+            <text>江西表表虎哥</text>
+            <text>该用户关注了你</text>
+          </view>
+          <view style="width:30%;">
+            <text >关注</text>
+            <text style="font-size:2rem;">···</text>
+          </view>
+        </view>
+       <view>
+          <image src="../../images/1.png"></image> 
+          <view style="width:50%;">
+            <text>江西表表虎哥</text>
+            <text>该用户关注了你</text>
+          </view>
+          <view style="width:30%;">
+            <text >关注</text>
+            <text style="font-size:2rem;">···</text>
+          </view>
+        </view>
+    </view>
+</view>
+<view  hidden="false" class="fixed">
+   <view>
+     <view>移除粉丝</view>
+     <view>取消</view>
+   </view>
+</view>
+    

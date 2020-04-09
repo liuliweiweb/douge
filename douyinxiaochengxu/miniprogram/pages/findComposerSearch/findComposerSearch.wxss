@@ -1,0 +1,180 @@
+/* pages/findComposer/findComposer.wxss */
+page{
+  font-size:32rpx;
+}
+input{
+  height:100%;
+}
+.search{
+  background-color:#F7F7F7;
+  height:11%;
+  position:fixed;
+  width:100%;
+  top:0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.search>view{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#fff;
+  border:2rpx solid #D7D7D7;
+  border-radius:10rpx;
+  width:85%;
+  padding:2% 0;
+}
+.search image{
+
+  width:50rpx;height:50rpx;
+}
+.search input{
+  margin-left:60rpx;
+}
+
+
+.bar{
+  display:flex;
+  position:fixed;
+  height:89%;bottom:0;
+  width:100%;
+}
+.bar>.bar_title{
+  width:25%;
+  height:100%;
+  overflow: scroll;
+}
+.bar_title>view{
+  padding:20% 0;
+  text-align:center;
+}
+
+.bar_title>view>text{
+  display:block;
+  width:calc(100%-8rpx);
+}
+.bar_title>.active{
+  background-color:#fff;
+}
+.bar_title>.active>text{
+  border-left:8rpx solid green;
+}
+
+/* 第一页 */
+.first{
+  padding-left:5%;
+}
+/* 图片 */
+.first>view:first-child{
+  
+  height:130rpx;
+  width:100%;
+  padding-top:3%;
+  padding-bottom:2%;
+  text-align: center;
+}
+.first>view:first-child>image{
+  width:80%;
+  height:100%;
+  margin:auto;
+}
+/* 导航bar */
+.first>.daohang{
+   display:flex;
+   justify-content: space-around;
+   align-items: center;
+   padding:1% 0;
+   font-size:30rpx;
+   border-bottom:2rpx solid #E4E4E4;
+
+}
+.first>.daohang>view{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width:50%;
+  text-align: center;
+}
+.daohang>view>view{
+  margin-right:2%;
+}
+
+.first>.daohang>view image{
+  width:50rpx;height:50rpx;
+  vertical-align: middle;
+}
+
+/* 详情 */
+.detailList{
+  padding:3% 0;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom:2rpx solid #E4E4E4;
+}
+.detailList image{
+  width:80rpx;height:80rpx;
+}
+.detailList>view{
+  display:flex;
+  flex-direction:column;
+  width:60%;
+ 
+}
+.detailList>view>view{
+  margin-bottom:1%;
+}
+
+.detailList>view>view:first-child{
+  font-size:33rpx;
+  font-weight:300;
+
+}
+.detailList>view>view:first-child image{
+   width:30rpx;
+   height:30rpx;
+   vertical-align:middle;
+   margin-left:3%;
+   margin-right:1%;
+}
+.detailList>view>view:nth-child(2) text{
+   font-size:28rpx;color:#A1A1A1;
+}
+.detailList>view>view:nth-child(4)>image{
+  width:40rpx; height:40rpx;
+  vertical-align: middle;
+  margin-right:2%;
+}
+.detailList>view>view:nth-child(4)>text{
+  color:#a1a1a1;font-size:28rpx;
+  margin-right:20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bar>.bar_list{
+  width:80%;
+  background-color:#fff;
+  height:100%;
+  overflow:scroll;
+}

@@ -1,0 +1,175 @@
+<!--pages/fansFollow/fansFollow.wxml-->
+<view class="title">
+    <view bindtap="active1" class="{{active?'active':''}}"><text>关注</text>39</view>
+    <view bindtap="active2" class="{{!active?'active':''}}"><text>粉丝</text>36</view>
+</view>
+<view class="list">
+  <!-- follow:关注列表 -->
+   <view wx:if="{{active}}" class="follow">
+   <!-- 需要遍历的关注列表 -->
+      <view  >
+      
+         <image src="../../images/user.png"></image>
+         <view style="width:50%;">
+           <text>爆哥好歌分享</text>
+           <text>分享好听的好声音分享好听的好声音</text>
+         </view>
+         <view  style="width:30%">
+           <view class="yiguanzhu">已关注</view>
+         </view>
+      </view>
+      <view  >
+         <image src="../../images/1.png"></image>
+         <view style="width:50%;">
+           <text>刘啊伟</text>
+           <text>分享好听的好声音分享好听的好声音</text>
+         </view>
+         <view  style="width:30%;">
+           <view class="weiguanzhu">关注</view>
+         </view>
+      </view>
+      <view  >
+         <image src="../../images/2.png"></image>
+         <view style="width:50%;">
+           <text>七月阳光</text>
+           <text>分享好听的好声音分享好听的好声音</text>
+         </view>
+         <view  style="width:30%;">
+           <view class="weiguanzhu">关注</view>
+         </view>
+      </view>
+      <view  >
+         <image src="../../images/user.png"></image>
+         <view style="width:50%;">
+           <text>神仙小分队</text>
+           <text>分享好听的好声音分享好听的好声音</text>
+         </view>
+         <view  style="width:30%;">
+           <view class="weiguanzhu">关注</view>
+         </view>
+      </view>
+      <view  >
+         <image src="../../images/user.png"></image>
+         <view style="width:50%;">
+           <text>幸福生活靠自己</text>
+           <text>分享好听的好声音分享好听的好声音</text>
+         </view>
+         <view  style="width:30%;">
+           <view class="weiguanzhu">关注</view>
+         </view>
+      </view>
+      <view  >
+         <image src="../../images/user.png"></image>
+         <view style="width:50%;">
+           <text>爆哥好歌分享</text>
+           <text>分享好听的好声音分享好听的好声音</text>
+         </view>
+         <view  style="width:30%;">
+           <view class="weiguanzhu">关注</view>
+         </view>
+      </view>
+    </view>
+   <!-- 粉丝列表 -->
+    <view wx:if="{{!active}}" class="fans">
+        <!-- 需要循环遍历的粉丝列表 -->
+
+       <view>
+          <image src="../../images/user.png"></image>
+          
+          <view style="width:50%;">
+            <text style="font-size:35rpx">爆哥好歌分享</text>
+            <text>该用户关注了你</text>
+          </view>
+          <view >
+            <text class="weiguanzhu" bindtap="handle">关注</text>
+            <image data-id="1" style="width:50rpx;height:50rpx;" src="../../images/sandian.png" bindtap="zzc"></image>
+          </view>
+      </view>
+      <!-- <遍历结束位置> -->
+       <view>
+          <image src="../../images/user.png"></image>
+          <view style="width:50%;">
+            <text style="font-size:35rpx">爆哥好歌分享</text>
+            <text>该用户关注了你</text>
+          </view>
+          <view >
+            <text class="weiguanzhu">关注</text>
+            <image data-id="2" bindtap="zzc" style="width:50rpx;height:50rpx;" src="../../images/sandian.png"></image>
+          </view>
+      </view>
+       <view>
+          <image src="../../images/user.png"></image>
+          <view style="width:50%;">
+            <text style="font-size:35rpx">江西表表虎哥</text>
+            <text>该用户关注了你</text>
+          </view>
+          <view >
+            <text class="weiguanzhu">关注</text>
+            <image style="width:50rpx;height:50rpx;" src="../../images/sandian.png"></image>
+          </view>
+      </view>
+       <view>
+          <image src="../../images/user.png"></image>
+          <view style="width:50%;">
+            <text style="font-size:35rpx">七月阳光</text>
+            <text>该用户关注了你</text>
+          </view>
+          <view >
+            <text class="weiguanzhu">关注</text>
+            <image style="width:50rpx;height:50rpx;" src="../../images/sandian.png"></image>
+          </view>
+      </view>
+       <view>
+          <image src="../../images/user.png"></image>
+          <view style="width:50%;">
+            <text style="font-size:35rpx">刘啊伟</text>
+            <text>该用户关注了你</text>
+          </view>
+          <view >
+            <text class="weiguanzhu">关注</text>
+            <image style="width:50rpx;height:50rpx;" src="../../images/sandian.png"></image>
+          </view>
+      </view>
+       <view>
+          <image src="../../images/user.png"></image>
+          <view style="width:50%;">
+            <text style="font-size:35rpx">神仙小分队</text>
+            <text>该用户关注了你</text>
+          </view>
+          <view >
+            <text class="weiguanzhu">关注</text>
+            <image style="width:50rpx;height:50rpx;" src="../../images/sandian.png"></image>
+          </view>
+      </view>
+       <view>
+          <image src="../../images/user.png"></image>
+          <view style="width:50%;">
+            <text style="font-size:35rpx">皮皮家的音响</text>
+            <text>该用户关注了你</text>
+          </view>
+          <view >
+            <text class="weiguanzhu">关注</text>
+            <image style="width:50rpx;height:50rpx;" src="../../images/sandian.png"></image>
+          </view>
+      </view>
+       <view>
+          <image src="../../images/user.png"></image>
+          <view style="width:50%;">
+            <text style="font-size:35rpx">幸福该靠自己</text>
+            <text>该用户关注了你</text>
+          </view>
+          <view >
+            <text class="weiguanzhu">关注</text>
+            <image style="width:50rpx;height:50rpx;" src="../../images/sandian.png"></image>
+          </view>
+      </view>
+    </view>
+</view>
+<view  hidden="{{zzc}}" class="zzc">
+   <view>
+     <view bindtap="delfans">移除粉丝{{names}}</view>
+     <view bindtap="quxiao">取消</view>
+   </view>
+</view>
+
+
